@@ -3,17 +3,17 @@ ocaml-xmlplaylist
 This package provides a parser for XML playlists in OCaml.
 
 Runtime requirements:
-  ocaml-3.10.2-1
-  ocaml-xml-light-2.2.20070116-2
+  ocaml-3.11.2-1
+  ocaml-xmlm-1.0.2-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.25-15
-  binutils-20080624-2
-  cygport-0.4.3-1
-  gcc-core-3.4.4-3
+  cygwin-1.7.1-1
+  binutils-2.19.51-1
+  cygport-0.9.80-1
+  gcc4-core-4.3.4-3
   make-3.81-2
-  ocaml-findlib-1.2.2-1
+  ocaml-findlib-1.2.5-1
 
 Canonical website:
   http://savonet.sourceforge.net/wiki/OCamlLibs
@@ -24,40 +24,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack ocaml-xmlplaylist-0.1.1-X-src.tar.bz2
+  unpack ocaml-xmlplaylist-0.1.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./ocaml-xmlplaylist-0.1.1-X.cygport all
+  cygport ./ocaml-xmlplaylist-0.1.2-X.cygport all
 
 This will create:
-  /usr/src/ocaml-xmlplaylist-0.1.1-X-src.tar.bz2
-  /usr/src/ocaml-xmlplaylist-0.1.1-X.tar.bz2
+  /usr/src/ocaml-xmlplaylist-0.1.2-X-src.tar.bz2
+  /usr/src/ocaml-xmlplaylist-0.1.2-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/ocaml/3.10/xmlplaylist/META
-  /usr/lib/ocaml/3.10/xmlplaylist/xmlplaylist.a
-  /usr/lib/ocaml/3.10/xmlplaylist/xmlplaylist.cma
-  /usr/lib/ocaml/3.10/xmlplaylist/xmlplaylist.cmi
-  /usr/lib/ocaml/3.10/xmlplaylist/xmlplaylist.cmx
-  /usr/lib/ocaml/3.10/xmlplaylist/xmlplaylist.cmxa
-  /usr/lib/ocaml/3.10/xmlplaylist/xmlplaylist.mli
-  /usr/share/doc/ocaml-xmlplaylist-0.1.1/COPYING
-  /usr/share/doc/ocaml-xmlplaylist-0.1.1/Changes
-  /usr/share/doc/ocaml-xmlplaylist-0.1.1/README
-
-------------------
-
 Port Notes:
 
------ version 0.1.1-1 -----
-Version bump.
-
------ version 0.1.0-1 -----
-Initial release for Cygwin.
+----- version 0.1.2-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
