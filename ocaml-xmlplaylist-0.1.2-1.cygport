@@ -1,7 +1,7 @@
 inherit ocaml
 
 DESCRIPTION="OCaml XML playlist library"
-HOMEPAGE="http://savonet.sourceforge.net/wiki/OCamlLibs"
+HOMEPAGE="http://savonet.sourceforge.net/"
 SRC_URI="mirror://sourceforge/savonet/${P}.tar.gz"
 
 src_compile() {
