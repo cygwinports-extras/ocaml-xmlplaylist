@@ -3,17 +3,17 @@ ocaml-xmlplaylist
 This package provides a parser for XML playlists in OCaml.
 
 Runtime requirements:
-  ocaml-3.11.2-1
-  ocaml-xmlm-1.0.2-1
+  ocaml-base-3.12.0-4
+  ocaml-xmlm-1.0.2-2
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.7.1-1
-  binutils-2.19.51-1
-  cygport-0.9.80-1
-  gcc4-core-4.3.4-3
+  cygwin-1.7.7-1
+  binutils-2.20.51-2
+  cygport-0.10.0-1
+  gcc4-core-4.5.0-1
   make-3.81-2
-  ocaml-findlib-1.2.5-1
+  ocaml-findlib-1.2.6-1
 
 Canonical website:
   http://savonet.sourceforge.net/
@@ -37,6 +37,9 @@ This will create:
 -------------------------------------------
 
 Port Notes:
+
+----- version 0.1.2-2 -----
+Rebuilt for OCaml 3.12.0.
 
 ----- version 0.1.2-1 -----
 Initial release for Cygwin 1.7.
