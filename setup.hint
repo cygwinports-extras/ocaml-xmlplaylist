@@ -1,4 +1,0 @@
-category: Audio OCaml
-requires: ocaml-base ocaml-xmlm
-sdesc: "OCaml XML playlist library"
-ldesc: "This package provides a parser for XML playlists in OCaml."
